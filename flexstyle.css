@@ -1,65 +1,82 @@
-/*body{
-    padding:20px;
-    font-family: cursive;
-    font-size: x-large;
-    font:1em,arial;
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    background-image: linear-gradient(to bottom right, #e95420, #772953);
+    
 }
-*{
-    box-sizing: border-box;
-}
-p{
-    margin:0 1em 0;
-}*/
-.main-container{
-    background: brown;
-    margin: 60px;
-    padding: 8px;
-}
-.header-container{
-margin: 50px;
-border:1px solid red;
-margin-bottom: 15px;
-}
-.header{
+header{
+    margin: 20px;
     height: 30px;
+    color:#fff ;
+    border: 1px solid #fff ;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top:15px;
+    background-color: rgba(255, 255, 255, 0.25);
 }
-.flex-container{
-    color: #fff;
-    display: flex;
-    border: 1px solid red;
-    padding: 29px;
-    display: flex;
-    margin-top: 16px;
-    margin-right: 50px;
-    /* margin-bottom: 50px; */
-    margin-left: 50px;
-    text-align: center;
-    flex-wrap: nowrap;
-    height: 20rem;
-    background: rgba(255, 255, 255, 0.25);
-}
-.flex-child {
-    border: 1px solid red;
-}  
 
-.flex-child:first-child {
-    margin-right: 20px;
+#main{
+    margin: 20px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* float: left;
+    min-width: 1320px; */
+   display: flex;
+   flex-direction: row;
 }
-.flex-child:nth-child(2) {
-    margin-right: 20px;
-}
-.footer-container{
-    border: 1px solid red;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    margin-right: 50px;
-    margin-left: 50px;
-    height: 30px;
+
+
+#content{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* width: 900px;
+    height: 400px;
+    float: left; */
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background: rgba(255, 255, 255, 0.25);
+    flex-wrap: wrap;
+
+}
+
+#secondary{
+    margin-top: 20px;
+    
+    
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* float: left;
+    width: 120px;
+    height: 400px; */
+    flex-wrap: wrap;
+    height: 400px;
+    text-align: center;    
+}
+
+#tertiary{
+    margin: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.25);
+    /* width: 120px;
+    height: 400px;
+    float: left; */
+    flex-wrap: wrap;
+    height: 400px;
+    text-align: center;
+    
+}
+
+footer{
+    clear: both;
+    margin: 20px;
+    height: 30px;
+    color:#fff ;
+    border: 1px solid #fff ;
+    text-align: center;
+    padding-top:15px;
+    background-color: rgba(255, 255, 255, 0.25);
 }
